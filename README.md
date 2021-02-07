@@ -13,7 +13,7 @@ File Heart_stroke_Data_preparation.ipynb
 # Sampling techniques
 To deal with the imbalance problem of the dataset, have resampled the dataset by performing both Undersampling and Oversampling on the data.
 
-**** Undersampling:**** 
+****Undersampling:**** 
 deletes some of the observations from the majority class in order to match the numbers with the minority class. 
 
 ****ClusterCentroids :**** 
