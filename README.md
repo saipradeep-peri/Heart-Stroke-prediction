@@ -23,7 +23,9 @@ generates synthetic data that tries to randomly generate a sample of the attribu
 SMOTE oversamples the minority class, it does not rely on reusing previously existing observations. Instead, SMOTE creates new (synthetic) observations based on the observations in data.
 
 
-# Models Used : Heart_Stroke_Predictor.ipynb
+# Modeling: 
+Heart_Stroke_Predictor.ipynb
+Models used :
 1. Logistic Regression
 2. Decision Trees
 3. Support Vector Machines
