@@ -12,13 +12,16 @@ File Heart_stroke_Data_preparation.ipynb
 
 # Sampling techniques
 To deal with the imbalance problem of the dataset, have resampled the dataset by performing both Undersampling and Oversampling on the data.
+
 **** Undersampling:**** 
 deletes some of the observations from the majority class in order to match the numbers with the minority class. 
+
 ****ClusterCentroids :**** 
 Method that under samples the majority class by replacing a cluster of majority samples by the cluster centroid of a KMeans algorithm. This algorithm keeps N majority samples by fitting the KMeans algorithm with N cluster to the majority class and using the coordinates of the N cluster centroids as the new majority samples.
 
 ****Oversampling:**** 
 generates synthetic data that tries to randomly generate a sample of the attributes from observations in the minority class. 
+
 ****Synthetic Minority Over-Sampling Technique(SMOTE) :**** 
 SMOTE oversamples the minority class, it does not rely on reusing previously existing observations. Instead, SMOTE creates new (synthetic) observations based on the observations in data.
 
